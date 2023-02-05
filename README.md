@@ -1,3 +1,45 @@
+news site: Spaceflight, using TypeScript.
+
+Comply with the requests and try to implement types and interfaces as best you can.
+
+     
+API Docs:
+
+You can find the entire documentation here –>
+https://api.spaceflightnewsapi.net/v3/documentation
+
+The endpoint to get the list of articles will be like this:
+
+     https://api.spaceflightnewsapi.net/v3/articles
+
+Use the id property of each route you want information about
+
+     https://api.spaceflightnewsapi.net/v3/articles/:id
+
+
+TASKS:
+         Implement a nice main page to display API articles; each article must be viewed by a component and must show details such as title, publication date, cover image, etc…
+         Clicking on an item should take the user to the detail page, where the data of a particular item will be fetched. Show on this page any information you can get about it.
+
+     
+
+     Suggestions:
+         Separate the application into reusable components
+         Implement prop and state interfaces for each component when needed
+         Implement an interface for the result of the API call only
+         Skip the Redux approach and directly fetch the data into the component and save the result in the loca state (we didn't get to talk about Redux with TypeScript, there's a Coding Pill available that talks about it if you're interested!)
+
+
+// TERMINAL
+// npx create-react-app "name-of-my-app" --template typescript
+// npm i bootstrap@4.6.1
+// npm i react-bootstrap@1.6.5
+// npm i react-router-dom
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
